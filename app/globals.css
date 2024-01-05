@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ --bg-color: #0D0B21;
+ --container-color: #15132B;
+ --todoBox-color: #211A75;
+ --purple: #7879F1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +17,19 @@
   }
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ max-width: 1400px;
+ min-height: 100vh;
+ /* background-color: var(--bg-color); */
+}
+
+.icons{
+  width: 20px;
+  height: 20px;
 }

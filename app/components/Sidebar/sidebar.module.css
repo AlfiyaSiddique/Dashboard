@@ -1,0 +1,42 @@
+#sidebar{
+    background-color: var(--container-color);
+    padding: 10px 30px;
+    transition: all 1s; 
+    overflow-y: hidden;   
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu{
+ padding: 2rem 0 ;
+}
+
+.linkItem{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+#banner{
+    margin: auto;
+    background: linear-gradient(139.14deg, #076ECD 23.19%, #1CBBFF 102.24%);
+    border-radius: 30px;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+.shadow{
+    background: linear-gradient(139.14deg, #1CBBFF 23.19%, #4FF3FE 104.35%);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -23px;
+    right: -20px;
+    
+} 

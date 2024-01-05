@@ -1,0 +1,31 @@
+#navbar{
+background-color: var(--container-color);
+max-height: 10vh;
+padding: 10px 30px;
+}
+
+.input{
+    padding: 8px 25px;
+    background-color: var( --todoBox-color);
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.languages{
+    list-style: none;
+}
+
+.langdiv{
+    background-color: var(--todoBox-color);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.langdropdown{
+    border-radius: 20px;
+    background-color: var(--todoBox-color);
+}
+
+.langdropdown li{
+    padding: 8px 15px;
+}
